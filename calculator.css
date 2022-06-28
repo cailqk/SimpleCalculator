@@ -1,0 +1,49 @@
+body {
+  background-color: lightblue;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  background-color: lightgrey;
+  text-align: center;
+  border: solid 3px;
+  border-radius: 12px;
+}
+
+.results {
+  height: 45px;
+}
+
+.inputs {
+  height: 35px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.buttons {
+  margin: 50px;
+}
+
+#input {
+  display: block;
+}
+
+#input div {
+  display: block;
+  margin: 3px;
+}
+
+.buttons button {
+  margin: 1px;
+  width: 70px;
+  height: 65px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+}
